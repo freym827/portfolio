@@ -48,7 +48,7 @@ body {
     height: 400px;
     position: absolute;
     left: 50%;
-    top: 120px;
+    top: 130px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
@@ -59,7 +59,7 @@ body {
     background-color: #F0E68C;
     position: absolute;
     left: 50%;
-    top: 35px;
+    top: 40px;
     -webkit-transform: translateX(-50%) rotate(45deg);
     transform: translateX(-50%) rotate(45deg);
     z-index: 2;
@@ -72,7 +72,7 @@ body {
     background-color: #7FFFD4;
     position: absolute;
     left: 50%;
-    top: 280px;
+    top: 330px;
     -webkit-transform: translateX(-50%) rotate(45deg);
     transform: translateX(-50%) rotate(45deg);
     z-index: 2;
@@ -80,12 +80,12 @@ body {
 }
 
 .blackbox {
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
     background-color: #808080;
     position: absolute;
     left: 50%;
-    top: 110px;
+    top: 120px;
     -webkit-transform: translateX(-50%) rotate(45deg);
     transform: translateX(-50%) rotate(45deg);
     border-top: 4px solid #7FFFD4;
@@ -103,30 +103,30 @@ body {
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    top: 285px;
+    top: 335px;
     font-size: 32px;
 }
 .welcome {
     position: absolute;
     left: 52%;
-    top: 150px;
+    top: 170px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     z-index: 2;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bolder;
 }
 
 .time {
     position: absolute;
     left: 50%;
-    top: 195px;
+    top: 230px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     z-index: 2;
     color: white;
-    font-size: 14px;
+    font-size: 15px;
     text-align: center;
     width: 180px;
 }
@@ -139,6 +139,7 @@ body {
     bottom: 0;
     text-align: center;
     border-top: 4px solid #F0E68C;
+    display: none
 }
 
 .frame {
