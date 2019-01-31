@@ -5,7 +5,7 @@
 body {
     background-image: url("../assets/images/backgroundmobile.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw 100vh;
     height: 100vh;
     overflow: hidden;
 }
