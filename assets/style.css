@@ -48,7 +48,7 @@ body {
     height: 400px;
     position: absolute;
     left: 50%;
-    top: 130px;
+    top: 115px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
@@ -129,17 +129,6 @@ body {
     font-size: 15px;
     text-align: center;
     width: 180px;
-}
-
-.footer {
-    width: 100vw;
-    height: 50px;
-    background-color: #808080;
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    border-top: 4px solid #F0E68C;
-    display: none
 }
 
 .selfie {
