@@ -48,18 +48,18 @@ body {
     height: 400px;
     position: absolute;
     left: 50%;
-    top: 20vh;
+    top: 120px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
 
 .yellowbox {
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     background-color: #F0E68C;
     position: absolute;
     left: 50%;
-    top: 25px;
+    top: 35px;
     -webkit-transform: translateX(-50%) rotate(45deg);
     transform: translateX(-50%) rotate(45deg);
     z-index: 2;
@@ -67,12 +67,12 @@ body {
 }
 
 .tealbox {
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     background-color: #7FFFD4;
     position: absolute;
     left: 50%;
-    top: 345px;
+    top: 280px;
     -webkit-transform: translateX(-50%) rotate(45deg);
     transform: translateX(-50%) rotate(45deg);
     z-index: 2;
@@ -80,12 +80,12 @@ body {
 }
 
 .blackbox {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     background-color: #808080;
     position: absolute;
     left: 50%;
-    top: 120px;
+    top: 110px;
     -webkit-transform: translateX(-50%) rotate(45deg);
     transform: translateX(-50%) rotate(45deg);
     border-top: 4px solid #7FFFD4;
@@ -103,32 +103,32 @@ body {
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    top: 355px;
+    top: 285px;
     font-size: 32px;
 }
 .welcome {
     position: absolute;
     left: 52%;
-    top: 170px;
+    top: 150px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     z-index: 2;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bolder;
 }
 
 .time {
     position: absolute;
     left: 50%;
-    top: 230px;
+    top: 195px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     z-index: 2;
     color: white;
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
-    width: 200px;
+    width: 180px;
 }
 
 .footer {
