@@ -127,36 +127,38 @@
     width: 180px;
 }
 .wrapperabout {
-    background-color: #E0FFFF;
+    background-color: #FFFFF0;
     height: 80vh;
 }
 .selfie {
-    width: 230px;
-    height: 280px;
-    border-left: 4px solid #F0E68C;
-    border-bottom: 4px solid #F0E68C;
+    width: 200px;
+    height: 260px;
     float: right;
+    border-bottom: 4px solid #7FFFD4;
+    border-left: 4px solid #7FFFD4;
 }
 .aboutlbl {
-    font-size: 32px;
     position: absolute;
-    margin-top: 230px;
-    font-weight: bolder;
-    text-shadow: 0px 1px 1px white;
-    margin-left: 10px;
-}
-.abouttxt {
-    margin-left: 10px;
-    margin-top: 290px;
     clear: both;
-    text-shadow: 0px 1px 1px white;
+    margin-top: 220px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 32px;
+    text-shadow: 0px 2px 2px white;
+}
+.abouttext {
+    clear: both;
     position: absolute;
-    font-size: 15px;
-    width: 90%;
+    width: 70%;
+    font-size: 12px;
+    margin-top: 270px;
+    margin-left: 10px;
+    text-shadow: 0px 1px 1px white;
 }
 .wrapperportfolio {
-    background-color: whitesmoke;
+    background-color: #E0FFFF;
     padding-top: 10px;
+    padding-bottom: 20px;
 }
 .porthead {
     text-align: center;
@@ -202,12 +204,15 @@
     padding: 10px;
 }
 .conhead {
-    text-align: center;
+  font-weight: bolder;
 }
 .condiv {
     position: absolute;
-    right: 10px;
     margin-top: 20vh;
+    background-image: linear-gradient(to top left, #F0E68C, #FFFFF0);
+    right: 0px;
+    padding: 5px;
+    padding-right: 20px;
 }
 
 .foottxt {
@@ -219,45 +224,135 @@
 }
 
 @media only screen and (min-height: 670px) {
-
-}
-
-@media only screen and (min-height: 800px) {
-
+    .selfie {
+        width: 250px;
+        height: 310px;
+    }
+    .aboutlbl {
+        position: absolute;
+        clear: both;
+        margin-top: 270px;
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 32px;
+        text-shadow: 0px 2px 2px white;
+    }
+    .abouttext {
+        clear: both;
+        position: absolute;
+        width: 70%;
+        font-size: 14px;
+        margin-top: 330px;
+        margin-left: 10px;
+        text-shadow: 0px 1px 1px white;
+    }
 }
 
 @media only screen and (min-width: 600px) {
     .wrapperindex {
         background-image: url("../assets/images/backgroundmed.jpg");
     }
-    .welcome {
-        display: block;
+    .logobox {
+        top: 20vh;
     }
-    .foottxtp {
-        display: none;
+    .wrappercontact {
+        background-image: url("../assets/images/contactmed.jpg")
     }
-    .main {
-        background-color: transparent;
+    .selfie {
+        width: 300px;
+        height: 360px;
     }
-
+    .aboutlbl {
+        position: absolute;
+        clear: both;
+        margin-top: 300px;
+        margin-left: 170px;
+        font-weight: bold;
+        font-size: 40px;
+        text-shadow: 0px 2px 2px white;
+    }
+    .abouttext {
+        clear: both;
+        position: absolute;
+        width: 300px;
+        font-size: 13px;
+        margin-top: 370px;
+        margin-left: 170px;
+        text-shadow: 0px 1px 1px white;
+    }
+    .condiv {
+        position: absolute;
+        margin-top: 30vh;
+        background-image: linear-gradient(to top left, #F0E68C, #FFFFF0);
+        right: 0px;
+        padding: 15px;
+        padding-right: 80px;
+        width: 50vw;
+    }
 }
-
 @media only screen and (min-width: 850px) {
-
+    .selfie {
+        width: 360px;
+        height: 410px;
+    }
+    .aboutlbl {
+        position: absolute;
+        clear: both;
+        margin-top: 340px;
+        margin-left: 250px;
+        font-weight: bold;
+        font-size: 50px;
+        text-shadow: 0px 2px 2px white;
+    }
+    .abouttext {
+        clear: both;
+        position: absolute;
+        width: 380px;
+        font-size: 15px;
+        margin-top: 420px;
+        margin-left: 250px;
+        text-shadow: 0px 1px 1px white;
+    }
+    .condiv {
+        margin-top: 40vh;
+    }
 }
 
 @media only screen and (min-width: 1050px) {
     .wrapperindex {
         background-image: url("../assets/images/backgroundbig.jpg");
     }
-    .welcome {
-        display: block;
+    .selfie {
+        width: 500px;
+        height: 100%;
+        float: right;
+        border-bottom: none;
+        border-left: 6px solid #7FFFD4;
     }
-    .foottxtp {
-        display: none;
+    .aboutlbl {
+        position: absolute;
+        clear: both;
+        margin-top: 220px;
+        margin-left: 30%;
+        font-weight: bold;
+        font-size: 32px;
+        text-shadow: 0px 2px 2px white;
     }
-    .foottxtp2 {
-        display: block;
+    .abouttext {
+        clear: both;
+        position: absolute;
+        width: 20%;
+        font-size: 15px;
+        margin-top: 270px;
+        margin-left: 30%;
+        text-shadow: 0px 1px 1px white;
+    }
+    .wrappercontact {
+        background-image: url("../assets/images/contactbig.jpg")
+    }
+    .condiv {
+        margin-top: 20vh;
+        padding: 50px;
     }
 }
 
