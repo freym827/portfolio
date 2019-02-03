@@ -127,7 +127,6 @@
     width: 180px;
 }
 .wrapperabout {
-    background-color: #FFFFF0;
     height: 80vh;
 }
 .selfie {
@@ -145,6 +144,8 @@
     font-weight: bold;
     font-size: 32px;
     text-shadow: 0px 2px 2px white;
+    color: dimgray;
+    width: 70%;
 }
 .abouttext {
     clear: both;
@@ -154,14 +155,16 @@
     margin-top: 270px;
     margin-left: 10px;
     text-shadow: 0px 1px 1px white;
+    color: dimgray;
 }
 .wrapperportfolio {
-    background-color: #E0FFFF;
     padding-top: 10px;
     padding-bottom: 20px;
+    background-color: ivory;
 }
 .porthead {
     text-align: center;
+    color: dimgray;
 }
 
 .imgp {
@@ -261,6 +264,7 @@
         font-weight: bold;
         font-size: 32px;
         text-shadow: 0px 2px 2px white;
+        width: 70%;
     }
     .abouttext {
         clear: both;
@@ -295,6 +299,7 @@
         font-weight: bold;
         font-size: 40px;
         text-shadow: 0px 2px 2px white;
+        width: 300px;
     }
     .abouttext {
         clear: both;
@@ -328,6 +333,7 @@
         font-weight: bold;
         font-size: 50px;
         text-shadow: 0px 2px 2px white;
+        width: 380px;
     }
     .abouttext {
         clear: both;
@@ -362,6 +368,7 @@
         font-weight: bold;
         font-size: 32px;
         text-shadow: 0px 2px 2px white;
+        width: 20%;
     }
     .abouttext {
         clear: both;
