@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
 }
-
 :target {
     display: block;
     position: relative;
@@ -156,7 +155,7 @@
     font-weight: bold;
     font-size: 32px;
     text-shadow: 0px 2px 2px white;
-    color: dimgray;
+    color: darkgray;
     width: 70%;
 }
 .abouttext {
@@ -167,7 +166,7 @@
     margin-top: 270px;
     margin-left: 10px;
     text-shadow: 0px 1px 1px white;
-    color: dimgray;
+    color: darkgray;
 }
 .alink {
     color: #7FFFD4;
@@ -181,7 +180,7 @@
     text-align: center;
 }
 .skillshead {
-    color: dimgray;
+    color: darkgray;
     font-size: 30px;
     text-align: center;
     font-weight: bolder;
@@ -195,7 +194,7 @@
 .skilllbl {
     font-size: 25px;
     font-weight: 700;
-    color: dimgray;
+    color: darkgray;
     margin-bottom: 0px;
 }
 .circle {
@@ -209,7 +208,7 @@
 .skill {
     width: 80%;
     margin: 0 auto;
-    color: dimgray;
+    color: darkgray;
     text-shadow: 0px .5px .5px white;
     margin-bottom: 15px;
 }
@@ -233,7 +232,7 @@
     text-decoration: none;
     font-size: 22px;
     font-family: 'Lato', sans-serif;
-    color: dimgray;
+    color: darkgray;
     font-weight: bolder;
     position: absolute;
     top: 80%;
