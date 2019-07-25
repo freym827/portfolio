@@ -73,6 +73,7 @@
     transform: translateX(-50%) rotate(45deg);
     z-index: 2;
     border: 2px solid #808080;
+    box-shadow: 2px 2px 2px dimgray;
 }
 .tealbox {
     height: 60px;
@@ -85,6 +86,7 @@
     transform: translateX(-50%) rotate(45deg);
     z-index: 2;
     border: 2px solid #808080;
+    box-shadow: 4px 4px 2px dimgray;
 }
 .blackbox {
     width: 200px;
@@ -99,6 +101,7 @@
     border-left: 4px solid #7FFFD4;
     border-right: 4px solid #F0E68C;
     border-bottom: 4px solid #F0E68C;
+    box-shadow: 4px 4px 2px dimgray;
     animation-name: intro;
     animation-duration: 5s;
 }
@@ -389,8 +392,8 @@
     .aboutlbl {
         position: absolute;
         clear: both;
-        margin-top: 340px;
-        margin-left: 250px;
+        margin-top: 300px;
+        margin-left: 200px;
         font-weight: bold;
         font-size: 50px;
         text-shadow: 0px 2px 2px white;
@@ -401,8 +404,8 @@
         position: absolute;
         width: 380px;
         font-size: 15px;
-        margin-top: 420px;
-        margin-left: 250px;
+        margin-top: 380px;
+        margin-left: 200px;
         text-shadow: 0px 1px 1px white;
     }
     .condiv {
@@ -441,19 +444,19 @@
         position: absolute;
         clear: both;
         margin-top: 220px;
-        margin-left: 30%;
+        margin-left: 20%;
         font-weight: bold;
         font-size: 32px;
         text-shadow: 0px 2px 2px white;
-        width: 20%;
+        width: 30%;
     }
     .abouttext {
         clear: both;
         position: absolute;
-        width: 20%;
+        width: 30%;
         font-size: 15px;
         margin-top: 270px;
-        margin-left: 30%;
+        margin-left: 20%;
         text-shadow: 0px 1px 1px white;
     }
     .wrappercontact {
@@ -469,6 +472,68 @@
         width: 60px;
         height: 60px;
         right: 1%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-height: 700px) {
+    .aboutlbl {
+        margin-top: 70px;
+        font-size: 32px;
+        margin-left: 10%;
+    }
+    .abouttext {
+        margin-top: 120px;
+        margin-left: 10%;
+    }
+    .circle {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        border-radius: 100px;
+        margin: 0 auto;
+        padding-top: 35px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-height: 500px) {
+    .skill {
+        font-size: 16px;
+    }
+    .skilllbl {
+        font-size: 18px;
+    }
+    .logobox {
+        width:300px;
+        height: 400px;
+        position: absolute;
+        left: 50%;
+        top: 115px;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .yellowbox {
+        display: none;
+    }
+    .tealbox {
+        display: none;
+    }
+    .blackbox {
+        width: 180px;
+        height: 180px;
+        top: 50px;
+    }
+    .initials {
+        display: none;
+    }
+    .welcome {
+        top: 90px;
+        font-size: 35px;
+    }
+    .time {
+        top: 140px;
+    }
+    .condiv {
+        margin-top: 5vh;
     }
 }
 
