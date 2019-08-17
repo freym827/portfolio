@@ -117,10 +117,7 @@
     text-align: center;
     text-shadow: 2px 2px 8px black;
 }
-.clickButton:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-}
+
 
 .about {
     height: 90vh;
@@ -260,13 +257,7 @@
     color: black;
     text-decoration: none;
 }
-.portfolioLinks:hover {
-    transform: scale(1.1);
-    z-index: 2;
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-}
+
 .p1 {
     background-image:  
     url('./images/friendapp.png');
@@ -348,11 +339,7 @@
     background-size: cover;
     margin-bottom: 15px;
 }
-.github:hover {
-    transform: scale(1.1);
-    z-index: 2;
-    cursor: pointer;
-}
+
 .linked {
     width: 50px;
     height: 50px;
@@ -360,11 +347,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.linked:hover {
-    transform: scale(1.1);
-    z-index: 2;
-    cursor: pointer;
-}
+
 .footText {
     text-align: center;
     color: dimgray;
@@ -411,6 +394,27 @@
     }
     .aboutTop {
         margin-top: 50%;
+    }
+    .clickButton:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    .portfolioLinks:hover {
+        transform: scale(1.1);
+        z-index: 2;
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+    .github:hover {
+        transform: scale(1.1);
+        z-index: 2;
+        cursor: pointer;
+    }
+    .linked:hover {
+        transform: scale(1.1);
+        z-index: 2;
+        cursor: pointer;
     }
 }
 
